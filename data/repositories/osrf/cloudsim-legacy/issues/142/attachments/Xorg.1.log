@@ -1,0 +1,276 @@
+[254470.437] 
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+[254470.437] X Protocol Version 11, Revision 0
+[254470.437] Build Operating System: Linux 2.6.42-37-generic x86_64 Ubuntu
+[254470.437] Current Operating System: Linux sim-16 3.2.0-45-generic #70-Ubuntu SMP Wed May 29 20:12:06 UTC 2013 x86_64
+[254470.437] Kernel command line: BOOT_IMAGE=/vmlinuz-3.2.0-45-generic root=UUID=a5c3ce9f-9010-4ab7-84c1-a7d301f17daa ro intel_idle.max_cstate=0 i915.i915_enable_rc6=0 nomodeset
+[254470.437] Build Date: 11 April 2013  01:05:39PM
+[254470.437] xorg-server 2:1.11.4-0ubuntu10.13 (For technical support please see http://www.ubuntu.com/support) 
+[254470.437] Current version of pixman: 0.24.4
+[254470.437] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[254470.437] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[254470.437] (==) Log file: "/var/log/Xorg.1.log", Time: Tue Jun 11 22:40:53 2013
+[254470.437] (==) Using config file: "/etc/X11/xorg.conf"
+[254470.437] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[254470.437] (==) ServerLayout "Layout0"
+[254470.437] (**) |-->Screen "Screen0" (0)
+[254470.437] (**) |   |-->Monitor "Monitor0"
+[254470.437] (**) |   |-->Device "Device0"
+[254470.437] (**) |-->Input Device "Keyboard0"
+[254470.437] (**) |-->Input Device "Mouse0"
+[254470.438] (==) Automatically adding devices
+[254470.438] (==) Automatically enabling devices
+[254470.438] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[254470.438] 	Entry deleted from font path.
+[254470.438] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+[254470.438] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[254470.438] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[254470.438] (WW) Disabling Keyboard0
+[254470.438] (WW) Disabling Mouse0
+[254470.438] (II) Loader magic: 0x7f587a46bb00
+[254470.438] (II) Module ABI versions:
+[254470.438] 	X.Org ANSI C Emulation: 0.4
+[254470.438] 	X.Org Video Driver: 11.0
+[254470.438] 	X.Org XInput driver : 16.0
+[254470.438] 	X.Org Server Extension : 6.0
+[254470.440] (--) PCI:*(0:8:1:0) 102b:0532:15d9:0626 rev 10, Mem @ 0xbd000000/16777216, 0xbf800000/16384, 0xbf000000/8388608
+[254470.440] (--) PCI: (0:133:0:0) 10de:118f:10de:097f rev 161, Mem @ 0xfa000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432
+[254470.440] (--) PCI: (0:134:0:0) 10de:118f:10de:097f rev 161, Mem @ 0xf9000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432
+[254470.440] (II) Open ACPI successful (/var/run/acpid.socket)
+[254470.440] (II) LoadModule: "extmod"
+[254470.441] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[254470.441] (II) Module extmod: vendor="X.Org Foundation"
+[254470.441] 	compiled for 1.11.3, module version = 1.0.0
+[254470.441] 	Module class: X.Org Server Extension
+[254470.441] 	ABI class: X.Org Server Extension, version 6.0
+[254470.441] (II) Loading extension MIT-SCREEN-SAVER
+[254470.441] (II) Loading extension XFree86-VidModeExtension
+[254470.441] (II) Loading extension XFree86-DGA
+[254470.441] (II) Loading extension DPMS
+[254470.441] (II) Loading extension XVideo
+[254470.441] (II) Loading extension XVideo-MotionCompensation
+[254470.441] (II) Loading extension X-Resource
+[254470.441] (II) LoadModule: "dbe"
+[254470.441] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[254470.441] (II) Module dbe: vendor="X.Org Foundation"
+[254470.441] 	compiled for 1.11.3, module version = 1.0.0
+[254470.441] 	Module class: X.Org Server Extension
+[254470.441] 	ABI class: X.Org Server Extension, version 6.0
+[254470.441] (II) Loading extension DOUBLE-BUFFER
+[254470.441] (II) LoadModule: "glx"
+[254470.441] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/libglx.so
+[254470.449] (II) Module glx: vendor="NVIDIA Corporation"
+[254470.449] 	compiled for 4.0.2, module version = 1.0.0
+[254470.449] 	Module class: X.Org Server Extension
+[254470.449] (II) NVIDIA GLX Module  304.88  Wed Mar 27 14:46:57 PDT 2013
+[254470.449] (II) Loading extension GLX
+[254470.449] (II) LoadModule: "record"
+[254470.449] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[254470.449] (II) Module record: vendor="X.Org Foundation"
+[254470.449] 	compiled for 1.11.3, module version = 1.13.0
+[254470.449] 	Module class: X.Org Server Extension
+[254470.449] 	ABI class: X.Org Server Extension, version 6.0
+[254470.449] (II) Loading extension RECORD
+[254470.449] (II) LoadModule: "dri"
+[254470.449] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[254470.449] (II) Module dri: vendor="X.Org Foundation"
+[254470.449] 	compiled for 1.11.3, module version = 1.0.0
+[254470.449] 	ABI class: X.Org Server Extension, version 6.0
+[254470.449] (II) Loading extension XFree86-DRI
+[254470.450] (II) LoadModule: "dri2"
+[254470.450] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[254470.450] (II) Module dri2: vendor="X.Org Foundation"
+[254470.450] 	compiled for 1.11.3, module version = 1.2.0
+[254470.450] 	ABI class: X.Org Server Extension, version 6.0
+[254470.450] (II) Loading extension DRI2
+[254470.450] (II) LoadModule: "nvidia"
+[254470.450] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[254470.450] (II) Module nvidia: vendor="NVIDIA Corporation"
+[254470.450] 	compiled for 4.0.2, module version = 1.0.0
+[254470.450] 	Module class: X.Org Video Driver
+[254470.450] (II) NVIDIA dlloader X Driver  304.88  Wed Mar 27 14:28:14 PDT 2013
+[254470.450] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[254470.450] (++) using VT number 7
+
+[254470.450] (II) Loading sub module "fb"
+[254470.450] (II) LoadModule: "fb"
+[254470.451] (II) Loading /usr/lib/xorg/modules/libfb.so
+[254470.451] (II) Module fb: vendor="X.Org Foundation"
+[254470.451] 	compiled for 1.11.3, module version = 1.0.0
+[254470.451] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[254470.451] (II) Loading sub module "wfb"
+[254470.451] (II) LoadModule: "wfb"
+[254470.451] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[254470.451] (II) Module wfb: vendor="X.Org Foundation"
+[254470.451] 	compiled for 1.11.3, module version = 1.0.0
+[254470.451] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[254470.451] (II) Loading sub module "ramdac"
+[254470.451] (II) LoadModule: "ramdac"
+[254470.451] (II) Module "ramdac" already built-in
+[254470.451] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[254470.451] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[254470.451] (II) Loading /usr/lib/xorg/modules/libfb.so
+[254470.451] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[254470.451] (==) NVIDIA(0): RGB weight 888
+[254470.451] (==) NVIDIA(0): Default visual is TrueColor
+[254470.451] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[254470.451] (**) NVIDIA(0): Enabling 2D acceleration
+[254471.812] (II) NVIDIA(0): Implicitly enabling NoScanout
+[254471.812] (WW) NVIDIA(0): Failed to enable display hotplug notification
+[254471.815] (II) NVIDIA(0): NVIDIA GPU Tesla K10.G2.8GB (GK104) at PCI:133:0:0 (GPU-0)
+[254471.815] (--) NVIDIA(0): Memory: 3670016 kBytes
+[254471.815] (--) NVIDIA(0): VideoBIOS: 80.04.59.00.30
+[254471.815] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[254471.815] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
+[254471.815] (--) NVIDIA(0): Valid display device(s) on Tesla K10.G2.8GB at PCI:133:0:0
+[254471.815] (--) NVIDIA(0):     none
+[254471.815] (II) NVIDIA(0): Validated MetaModes:
+[254471.815] (II) NVIDIA(0):     "nvidia-auto-select"
+[254471.815] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[254471.815] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[254471.815] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[254471.815] (--) Depth 24 pixmap format is 32 bpp
+[254472.886] (II) NVIDIA(GPU-1): Implicitly enabling NoScanout
+[254472.886] (WW) NVIDIA(GPU-1): Failed to enable display hotplug notification
+[254472.890] (II) NVIDIA(GPU-1): NVIDIA GPU Tesla K10.G2.8GB (GK104) at PCI:134:0:0 (GPU-1)
+[254472.890] (--) NVIDIA(GPU-1): Memory: 3670016 kBytes
+[254472.890] (--) NVIDIA(GPU-1): VideoBIOS: 80.04.59.00.31
+[254472.890] (II) NVIDIA(GPU-1): Detected PCI Express Link width: 16X
+[254472.890] (--) NVIDIA(GPU-1): Interlaced video modes are supported on this GPU
+[254472.890] (--) NVIDIA(GPU-1): Valid display device(s) on Tesla K10.G2.8GB at PCI:134:0:0
+[254472.890] (--) NVIDIA(GPU-1):     none
+[254472.890] (II) NVIDIA: Using 3072.00 MB of virtual memory for indirect memory
+[254472.890] (II) NVIDIA:     access.
+[254472.897] (II) NVIDIA(0): Setting mode "nvidia-auto-select"
+[254472.903] (II) NVIDIA(0): Built-in logo is bigger than the screen.
+[254472.903] (II) Loading extension NV-GLX
+[254472.913] (==) NVIDIA(0): Disabling shared memory pixmaps
+[254472.913] (==) NVIDIA(0): Backing store disabled
+[254472.913] (==) NVIDIA(0): Silken mouse enabled
+[254472.913] (**) NVIDIA(0): DPMS enabled
+[254472.913] (II) Loading extension NV-CONTROL
+[254472.914] (II) Loading sub module "dri2"
+[254472.914] (II) LoadModule: "dri2"
+[254472.914] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[254472.914] (II) Module dri2: vendor="X.Org Foundation"
+[254472.914] 	compiled for 1.11.3, module version = 1.2.0
+[254472.914] 	ABI class: X.Org Server Extension, version 6.0
+[254472.914] (II) NVIDIA(0): [DRI2] Setup complete
+[254472.914] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[254472.914] (--) RandR disabled
+[254472.914] (II) Initializing built-in extension Generic Event Extension
+[254472.914] (II) Initializing built-in extension SHAPE
+[254472.914] (II) Initializing built-in extension MIT-SHM
+[254472.914] (II) Initializing built-in extension XInputExtension
+[254472.914] (II) Initializing built-in extension XTEST
+[254472.914] (II) Initializing built-in extension BIG-REQUESTS
+[254472.914] (II) Initializing built-in extension SYNC
+[254472.914] (II) Initializing built-in extension XKEYBOARD
+[254472.914] (II) Initializing built-in extension XC-MISC
+[254472.914] (II) Initializing built-in extension SECURITY
+[254472.914] (II) Initializing built-in extension XINERAMA
+[254472.914] (II) Initializing built-in extension XFIXES
+[254472.914] (II) Initializing built-in extension RENDER
+[254472.914] (II) Initializing built-in extension RANDR
+[254472.914] (II) Initializing built-in extension COMPOSITE
+[254472.914] (II) Initializing built-in extension DAMAGE
+[254472.916] (II) Initializing extension GLX
+[254472.934] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[254472.935] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[254472.935] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[254472.935] (II) LoadModule: "evdev"
+[254472.936] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[254472.936] (II) Module evdev: vendor="X.Org Foundation"
+[254472.936] 	compiled for 1.11.3, module version = 2.7.0
+[254472.936] 	Module class: X.Org XInput Driver
+[254472.936] 	ABI class: X.Org XInput driver, version 16.0
+[254472.936] (II) Using input driver 'evdev' for 'Power Button'
+[254472.936] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[254472.936] (**) Power Button: always reports core events
+[254472.936] (**) evdev: Power Button: Device: "/dev/input/event1"
+[254472.936] (--) evdev: Power Button: Vendor 0 Product 0x1
+[254472.936] (--) evdev: Power Button: Found keys
+[254472.936] (II) evdev: Power Button: Configuring as keyboard
+[254472.936] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[254472.936] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[254472.936] (**) Option "xkb_rules" "evdev"
+[254472.936] (**) Option "xkb_model" "pc105"
+[254472.936] (**) Option "xkb_layout" "us"
+[254472.936] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[254472.936] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[254472.936] (II) Using input driver 'evdev' for 'Power Button'
+[254472.936] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[254472.936] (**) Power Button: always reports core events
+[254472.936] (**) evdev: Power Button: Device: "/dev/input/event0"
+[254472.936] (--) evdev: Power Button: Vendor 0 Product 0x1
+[254472.936] (--) evdev: Power Button: Found keys
+[254472.936] (II) evdev: Power Button: Configuring as keyboard
+[254472.936] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[254472.936] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[254472.936] (**) Option "xkb_rules" "evdev"
+[254472.936] (**) Option "xkb_model" "pc105"
+[254472.936] (**) Option "xkb_layout" "us"
+[254472.937] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/event2)
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: Applying InputClass "evdev pointer catchall"
+[254472.937] (II) Using input driver 'evdev' for 'Winbond Electronics Corp Hermon USB hidmouse Device'
+[254472.937] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: always reports core events
+[254472.937] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Device: "/dev/input/event2"
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Vendor 0x557 Product 0x2221
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found 3 mouse buttons
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found scroll wheel(s)
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found relative axes
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found absolute axes
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found x and y absolute axes
+[254472.937] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found absolute touchscreen
+[254472.937] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Configuring as touchscreen
+[254472.937] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Adding scrollwheel support
+[254472.937] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: YAxisMapping: buttons 4 and 5
+[254472.937] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[254472.937] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.0/input/input2/event2"
+[254472.937] (II) XINPUT: Adding extended input device "Winbond Electronics Corp Hermon USB hidmouse Device" (type: TOUCHSCREEN, id 8)
+[254472.937] (WW) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: touchpads, tablets and touchscreens ignore relative axes.
+[254472.937] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: initialized for absolute axes.
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) keeping acceleration scheme 1
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration profile 0
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration factor: 2.000
+[254472.937] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration threshold: 4
+[254472.937] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/js0)
+[254472.937] (II) No input driver specified, ignoring this device.
+[254472.937] (II) This device may have been added with another device file.
+[254472.937] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/mouse0)
+[254472.937] (II) No input driver specified, ignoring this device.
+[254472.937] (II) This device may have been added with another device file.
+[254472.938] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/event3)
+[254472.938] (**) Winbond Electronics Corp Hermon USB hidmouse Device: Applying InputClass "evdev keyboard catchall"
+[254472.938] (II) Using input driver 'evdev' for 'Winbond Electronics Corp Hermon USB hidmouse Device'
+[254472.938] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[254472.938] (**) Winbond Electronics Corp Hermon USB hidmouse Device: always reports core events
+[254472.938] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Device: "/dev/input/event3"
+[254472.938] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Vendor 0x557 Product 0x2221
+[254472.938] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found keys
+[254472.938] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Configuring as keyboard
+[254472.938] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.1/input/input3/event3"
+[254472.938] (II) XINPUT: Adding extended input device "Winbond Electronics Corp Hermon USB hidmouse Device" (type: KEYBOARD, id 9)
+[254472.938] (**) Option "xkb_rules" "evdev"
+[254472.938] (**) Option "xkb_model" "pc105"
+[254472.938] (**) Option "xkb_layout" "us"
+[254473.141] (II) XKB: reuse xkmfile /var/lib/xkb/server-03AF3717FF3AB439A4BAABA686CCB40771CDF520.xkm

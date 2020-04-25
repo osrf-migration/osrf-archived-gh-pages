@@ -1,0 +1,426 @@
+[   130.884] 
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+[   130.884] X Protocol Version 11, Revision 0
+[   130.884] Build Operating System: Linux 2.6.42-37-generic x86_64 Ubuntu
+[   130.884] Current Operating System: Linux sim-16 3.2.0-45-generic #70-Ubuntu SMP Wed May 29 20:12:06 UTC 2013 x86_64
+[   130.884] Kernel command line: BOOT_IMAGE=/vmlinuz-3.2.0-45-generic root=UUID=a5c3ce9f-9010-4ab7-84c1-a7d301f17daa ro intel_idle.max_cstate=0 i915.i915_enable_rc6=0 nomodeset
+[   130.884] Build Date: 11 April 2013  01:05:39PM
+[   130.884] xorg-server 2:1.11.4-0ubuntu10.13 (For technical support please see http://www.ubuntu.com/support) 
+[   130.884] Current version of pixman: 0.24.4
+[   130.884] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   130.884] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   130.884] (==) Log file: "/var/log/Xorg.0.log", Time: Sun Jun  9 00:01:53 2013
+[   130.908] (==) Using config file: "/etc/X11/xorg.conf"
+[   130.908] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   130.981] (==) ServerLayout "Layout0"
+[   130.981] (**) |-->Screen "Screen0" (0)
+[   130.981] (**) |   |-->Monitor "Monitor0"
+[   130.982] (**) |   |-->Device "Device0"
+[   130.982] (**) |-->Input Device "Keyboard0"
+[   130.982] (**) |-->Input Device "Mouse0"
+[   130.982] (==) Automatically adding devices
+[   130.982] (==) Automatically enabling devices
+[   131.013] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[   131.013] 	Entry deleted from font path.
+[   131.013] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	built-ins
+[   131.013] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[   131.013] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[   131.013] (WW) Disabling Keyboard0
+[   131.013] (WW) Disabling Mouse0
+[   131.013] (II) Loader magic: 0x7f9e9698fb00
+[   131.013] (II) Module ABI versions:
+[   131.013] 	X.Org ANSI C Emulation: 0.4
+[   131.013] 	X.Org Video Driver: 11.0
+[   131.013] 	X.Org XInput driver : 16.0
+[   131.013] 	X.Org Server Extension : 6.0
+[   131.016] (--) PCI:*(0:8:1:0) 102b:0532:15d9:0626 rev 10, Mem @ 0xbd000000/16777216, 0xbf800000/16384, 0xbf000000/8388608
+[   131.016] (--) PCI: (0:133:0:0) 10de:118f:10de:097f rev 161, Mem @ 0xfa000000/16777216, 0xe0000000/268435456, 0xf0000000/33554432
+[   131.016] (--) PCI: (0:134:0:0) 10de:118f:10de:097f rev 161, Mem @ 0xf9000000/16777216, 0xc0000000/268435456, 0xd0000000/33554432
+[   131.016] (II) Open ACPI successful (/var/run/acpid.socket)
+[   131.016] (II) LoadModule: "extmod"
+[   131.080] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[   131.094] (II) Module extmod: vendor="X.Org Foundation"
+[   131.094] 	compiled for 1.11.3, module version = 1.0.0
+[   131.094] 	Module class: X.Org Server Extension
+[   131.094] 	ABI class: X.Org Server Extension, version 6.0
+[   131.094] (II) Loading extension MIT-SCREEN-SAVER
+[   131.094] (II) Loading extension XFree86-VidModeExtension
+[   131.094] (II) Loading extension XFree86-DGA
+[   131.094] (II) Loading extension DPMS
+[   131.094] (II) Loading extension XVideo
+[   131.094] (II) Loading extension XVideo-MotionCompensation
+[   131.094] (II) Loading extension X-Resource
+[   131.094] (II) LoadModule: "dbe"
+[   131.094] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[   131.103] (II) Module dbe: vendor="X.Org Foundation"
+[   131.103] 	compiled for 1.11.3, module version = 1.0.0
+[   131.104] 	Module class: X.Org Server Extension
+[   131.104] 	ABI class: X.Org Server Extension, version 6.0
+[   131.104] (II) Loading extension DOUBLE-BUFFER
+[   131.104] (II) LoadModule: "glx"
+[   131.104] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/libglx.so
+[   131.208] (II) Module glx: vendor="NVIDIA Corporation"
+[   131.208] 	compiled for 4.0.2, module version = 1.0.0
+[   131.208] 	Module class: X.Org Server Extension
+[   131.208] (II) NVIDIA GLX Module  304.88  Wed Mar 27 14:46:57 PDT 2013
+[   131.208] (II) Loading extension GLX
+[   131.208] (II) LoadModule: "record"
+[   131.208] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[   131.223] (II) Module record: vendor="X.Org Foundation"
+[   131.223] 	compiled for 1.11.3, module version = 1.13.0
+[   131.223] 	Module class: X.Org Server Extension
+[   131.223] 	ABI class: X.Org Server Extension, version 6.0
+[   131.223] (II) Loading extension RECORD
+[   131.223] (II) LoadModule: "dri"
+[   131.223] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[   131.232] (II) Module dri: vendor="X.Org Foundation"
+[   131.232] 	compiled for 1.11.3, module version = 1.0.0
+[   131.232] 	ABI class: X.Org Server Extension, version 6.0
+[   131.232] (II) Loading extension XFree86-DRI
+[   131.232] (II) LoadModule: "dri2"
+[   131.232] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[   131.237] (II) Module dri2: vendor="X.Org Foundation"
+[   131.237] 	compiled for 1.11.3, module version = 1.2.0
+[   131.237] 	ABI class: X.Org Server Extension, version 6.0
+[   131.237] (II) Loading extension DRI2
+[   131.237] (II) LoadModule: "nvidia"
+[   131.237] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[   131.439] (II) Module nvidia: vendor="NVIDIA Corporation"
+[   131.439] 	compiled for 4.0.2, module version = 1.0.0
+[   131.439] 	Module class: X.Org Video Driver
+[   131.454] (II) NVIDIA dlloader X Driver  304.88  Wed Mar 27 14:28:14 PDT 2013
+[   131.454] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[   131.454] (++) using VT number 7
+
+[   131.455] (II) Loading sub module "fb"
+[   131.455] (II) LoadModule: "fb"
+[   131.455] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   131.466] (II) Module fb: vendor="X.Org Foundation"
+[   131.466] 	compiled for 1.11.3, module version = 1.0.0
+[   131.466] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   131.466] (II) Loading sub module "wfb"
+[   131.466] (II) LoadModule: "wfb"
+[   131.467] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   131.468] (II) Module wfb: vendor="X.Org Foundation"
+[   131.468] 	compiled for 1.11.3, module version = 1.0.0
+[   131.468] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   131.468] (II) Loading sub module "ramdac"
+[   131.468] (II) LoadModule: "ramdac"
+[   131.468] (II) Module "ramdac" already built-in
+[   131.479] (II) Loading /usr/lib/x86_64-linux-gnu/xorg/extra-modules/nvidia_drv.so
+[   131.479] (II) Loading /usr/lib/xorg/modules/libwfb.so
+[   131.479] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   131.479] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[   131.479] (==) NVIDIA(0): RGB weight 888
+[   131.479] (==) NVIDIA(0): Default visual is TrueColor
+[   131.479] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[   131.479] (**) NVIDIA(0): Enabling 2D acceleration
+[   133.176] (II) NVIDIA(0): Implicitly enabling NoScanout
+[   133.176] (WW) NVIDIA(0): Failed to enable display hotplug notification
+[   133.186] (II) NVIDIA(0): NVIDIA GPU Tesla K10.G2.8GB (GK104) at PCI:133:0:0 (GPU-0)
+[   133.186] (--) NVIDIA(0): Memory: 3670016 kBytes
+[   133.186] (--) NVIDIA(0): VideoBIOS: 80.04.59.00.30
+[   133.186] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[   133.186] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
+[   133.186] (--) NVIDIA(0): Valid display device(s) on Tesla K10.G2.8GB at PCI:133:0:0
+[   133.186] (--) NVIDIA(0):     none
+[   133.186] (II) NVIDIA(0): Validated MetaModes:
+[   133.186] (II) NVIDIA(0):     "nvidia-auto-select"
+[   133.187] (II) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[   133.187] (WW) NVIDIA(0): Unable to get display device for DPI computation.
+[   133.187] (==) NVIDIA(0): DPI set to (75, 75); computed from built-in default
+[   133.187] (--) Depth 24 pixmap format is 32 bpp
+[   134.597] (II) NVIDIA(GPU-1): Implicitly enabling NoScanout
+[   134.597] (WW) NVIDIA(GPU-1): Failed to enable display hotplug notification
+[   134.600] (II) NVIDIA(GPU-1): NVIDIA GPU Tesla K10.G2.8GB (GK104) at PCI:134:0:0 (GPU-1)
+[   134.600] (--) NVIDIA(GPU-1): Memory: 3670016 kBytes
+[   134.600] (--) NVIDIA(GPU-1): VideoBIOS: 80.04.59.00.31
+[   134.600] (II) NVIDIA(GPU-1): Detected PCI Express Link width: 16X
+[   134.600] (--) NVIDIA(GPU-1): Interlaced video modes are supported on this GPU
+[   134.600] (--) NVIDIA(GPU-1): Valid display device(s) on Tesla K10.G2.8GB at PCI:134:0:0
+[   134.600] (--) NVIDIA(GPU-1):     none
+[   134.601] (II) NVIDIA: Using 3072.00 MB of virtual memory for indirect memory
+[   134.601] (II) NVIDIA:     access.
+[   134.607] (II) NVIDIA(0): Setting mode "nvidia-auto-select"
+[   134.630] (II) NVIDIA(0): Built-in logo is bigger than the screen.
+[   134.630] (II) Loading extension NV-GLX
+[   134.653] (==) NVIDIA(0): Disabling shared memory pixmaps
+[   134.653] (==) NVIDIA(0): Backing store disabled
+[   134.653] (==) NVIDIA(0): Silken mouse enabled
+[   134.653] (**) NVIDIA(0): DPMS enabled
+[   134.653] (II) Loading extension NV-CONTROL
+[   134.654] (II) Loading sub module "dri2"
+[   134.654] (II) LoadModule: "dri2"
+[   134.654] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[   134.654] (II) Module dri2: vendor="X.Org Foundation"
+[   134.654] 	compiled for 1.11.3, module version = 1.2.0
+[   134.654] 	ABI class: X.Org Server Extension, version 6.0
+[   134.654] (II) NVIDIA(0): [DRI2] Setup complete
+[   134.654] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[   134.654] (--) RandR disabled
+[   134.654] (II) Initializing built-in extension Generic Event Extension
+[   134.654] (II) Initializing built-in extension SHAPE
+[   134.654] (II) Initializing built-in extension MIT-SHM
+[   134.654] (II) Initializing built-in extension XInputExtension
+[   134.654] (II) Initializing built-in extension XTEST
+[   134.654] (II) Initializing built-in extension BIG-REQUESTS
+[   134.654] (II) Initializing built-in extension SYNC
+[   134.654] (II) Initializing built-in extension XKEYBOARD
+[   134.654] (II) Initializing built-in extension XC-MISC
+[   134.654] (II) Initializing built-in extension SECURITY
+[   134.654] (II) Initializing built-in extension XINERAMA
+[   134.654] (II) Initializing built-in extension XFIXES
+[   134.654] (II) Initializing built-in extension RENDER
+[   134.654] (II) Initializing built-in extension RANDR
+[   134.654] (II) Initializing built-in extension COMPOSITE
+[   134.654] (II) Initializing built-in extension DAMAGE
+[   134.655] (II) Initializing extension GLX
+[   134.881] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[   134.901] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[   134.901] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   134.901] (II) LoadModule: "evdev"
+[   134.901] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   134.901] (II) Module evdev: vendor="X.Org Foundation"
+[   134.901] 	compiled for 1.11.3, module version = 2.7.0
+[   134.901] 	Module class: X.Org XInput Driver
+[   134.901] 	ABI class: X.Org XInput driver, version 16.0
+[   134.901] (II) Using input driver 'evdev' for 'Power Button'
+[   134.901] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   134.901] (**) Power Button: always reports core events
+[   134.901] (**) evdev: Power Button: Device: "/dev/input/event1"
+[   134.902] (--) evdev: Power Button: Vendor 0 Product 0x1
+[   134.902] (--) evdev: Power Button: Found keys
+[   134.902] (II) evdev: Power Button: Configuring as keyboard
+[   134.902] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[   134.902] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   134.902] (**) Option "xkb_rules" "evdev"
+[   134.902] (**) Option "xkb_model" "pc105"
+[   134.902] (**) Option "xkb_layout" "us"
+[   134.902] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   134.902] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[   134.902] (II) Using input driver 'evdev' for 'Power Button'
+[   134.902] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   134.902] (**) Power Button: always reports core events
+[   134.902] (**) evdev: Power Button: Device: "/dev/input/event0"
+[   134.902] (--) evdev: Power Button: Vendor 0 Product 0x1
+[   134.902] (--) evdev: Power Button: Found keys
+[   134.902] (II) evdev: Power Button: Configuring as keyboard
+[   134.902] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[   134.902] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[   134.902] (**) Option "xkb_rules" "evdev"
+[   134.902] (**) Option "xkb_model" "pc105"
+[   134.902] (**) Option "xkb_layout" "us"
+[   134.902] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/event2)
+[   134.902] (**) Winbond Electronics Corp Hermon USB hidmouse Device: Applying InputClass "evdev pointer catchall"
+[   134.902] (II) Using input driver 'evdev' for 'Winbond Electronics Corp Hermon USB hidmouse Device'
+[   134.902] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   134.902] (**) Winbond Electronics Corp Hermon USB hidmouse Device: always reports core events
+[   134.903] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Device: "/dev/input/event2"
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Vendor 0x557 Product 0x2221
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found 3 mouse buttons
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found scroll wheel(s)
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found relative axes
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found absolute axes
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found x and y absolute axes
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found absolute touchscreen
+[   134.903] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Configuring as touchscreen
+[   134.903] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Adding scrollwheel support
+[   134.903] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: YAxisMapping: buttons 4 and 5
+[   134.903] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   134.903] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.0/input/input2/event2"
+[   134.903] (II) XINPUT: Adding extended input device "Winbond Electronics Corp Hermon USB hidmouse Device" (type: TOUCHSCREEN, id 8)
+[   134.903] (WW) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: touchpads, tablets and touchscreens ignore relative axes.
+[   134.903] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: initialized for absolute axes.
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) keeping acceleration scheme 1
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration profile 0
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration factor: 2.000
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: (accel) acceleration threshold: 4
+[   134.903] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/js0)
+[   134.903] (II) No input driver specified, ignoring this device.
+[   134.903] (II) This device may have been added with another device file.
+[   134.903] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/mouse0)
+[   134.903] (II) No input driver specified, ignoring this device.
+[   134.903] (II) This device may have been added with another device file.
+[   134.903] (II) config/udev: Adding input device Winbond Electronics Corp Hermon USB hidmouse Device (/dev/input/event3)
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: Applying InputClass "evdev keyboard catchall"
+[   134.903] (II) Using input driver 'evdev' for 'Winbond Electronics Corp Hermon USB hidmouse Device'
+[   134.903] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[   134.903] (**) Winbond Electronics Corp Hermon USB hidmouse Device: always reports core events
+[   134.903] (**) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Device: "/dev/input/event3"
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Vendor 0x557 Product 0x2221
+[   134.903] (--) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Found keys
+[   134.903] (II) evdev: Winbond Electronics Corp Hermon USB hidmouse Device: Configuring as keyboard
+[   134.903] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.3/1-1.3:1.1/input/input3/event3"
+[   134.903] (II) XINPUT: Adding extended input device "Winbond Electronics Corp Hermon USB hidmouse Device" (type: KEYBOARD, id 9)
+[   134.904] (**) Option "xkb_rules" "evdev"
+[   134.904] (**) Option "xkb_model" "pc105"
+[   134.904] (**) Option "xkb_layout" "us"
+[   140.486] (II) XKB: reuse xkmfile /var/lib/xkb/server-03AF3717FF3AB439A4BAABA686CCB40771CDF520.xkm
+[ 26521.797] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000096c8)
+[ 26528.797] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000096c8)
+[ 26531.798] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000974c)
+[ 26538.798] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000974c)
+[ 26541.799] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000097d0)
+[ 26548.799] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000097d0)
+[ 26551.800] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000a38c)
+[ 26558.800] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000a38c)
+[ 26561.801] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000a450)
+[ 26568.801] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000a450)
+[ 26571.802] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000a4d4)
+[ 26578.804] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000a4d4)
+[ 26581.805] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000a558)
+[ 26588.805] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000a558)
+[ 26591.806] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000b114)
+[ 26598.806] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000b114)
+[ 26601.807] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000b1d8)
+[ 26608.807] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000b1d8)
+[ 26611.808] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000b25c)
+[ 26618.808] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000b25c)
+[ 26621.809] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000b2e0)
+[ 26628.809] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000b2e0)
+[ 26631.810] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000be9c)
+[ 26638.810] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000be9c)
+[ 26641.811] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000bf60)
+[ 26648.811] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000bf60)
+[ 26651.812] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000bfe4)
+[ 26658.812] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000bfe4)
+[ 26661.813] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000c068)
+[ 26668.813] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000c068)
+[ 26671.814] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000cc24)
+[ 26678.814] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000cc24)
+[ 26681.815] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000cce8)
+[ 26688.815] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000cce8)
+[ 26691.816] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000cd6c)
+[ 26698.816] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000cd6c)
+[ 26701.817] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000cdf0)
+[ 26708.817] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000cdf0)
+[ 26711.818] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000d9ac)
+[ 26718.818] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000d9ac)
+[ 26721.819] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000da70)
+[ 26728.819] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000da70)
+[ 26731.820] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000daf4)
+[ 26738.820] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000daf4)
+[ 26741.821] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000db78)
+[ 26748.821] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000db78)
+[ 26751.822] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000e734)
+[ 26758.822] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000e734)
+[ 26761.823] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000e7f8)
+[ 26768.823] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000e7f8)
+[ 26771.824] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000e87c)
+[ 26778.824] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000e87c)
+[ 26781.825] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000e900)
+[ 26788.825] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000e900)
+[ 26791.826] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000f4bc)
+[ 26798.826] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000f4bc)
+[ 26801.827] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000f580)
+[ 26808.827] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000f580)
+[ 26811.828] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000f604)
+[ 26818.828] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000f604)
+[ 26821.829] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000f688)
+[ 26828.829] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000f688)
+[ 26831.830] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000025c)
+[ 26838.830] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000025c)
+[ 26841.831] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00000320)
+[ 26848.831] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00000320)
+[ 26851.832] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000003a4)
+[ 26858.832] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000003a4)
+[ 26861.833] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00000428)
+[ 26868.833] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00000428)
+[ 26871.834] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00000fe4)
+[ 26878.834] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00000fe4)
+[ 26881.835] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000010a8)
+[ 26888.835] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000010a8)
+[ 26891.836] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000112c)
+[ 26898.836] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000112c)
+[ 26901.837] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000011b0)
+[ 26908.837] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000011b0)
+[ 26911.838] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00001d6c)
+[ 26918.838] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00001d6c)
+[ 26921.839] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00001e30)
+[ 26928.839] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00001e30)
+[ 26931.840] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00001eb4)
+[ 26938.840] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00001eb4)
+[ 26941.841] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00001f38)
+[ 26948.841] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00001f38)
+[ 26951.842] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00002af4)
+[ 26958.842] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00002af4)
+[ 26961.843] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00002bb8)
+[ 26968.843] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00002bb8)
+[ 26971.844] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00002c3c)
+[ 26978.844] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00002c3c)
+[ 26981.845] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00002cc0)
+[ 26988.845] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00002cc0)
+[ 26991.846] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000387c)
+[ 26998.846] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000387c)
+[ 27001.847] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00003940)
+[ 27008.847] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00003940)
+[ 27011.848] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000039c4)
+[ 27018.848] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000039c4)
+[ 27021.849] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00003a48)
+[ 27028.849] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00003a48)
+[ 27031.850] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00004604)
+[ 27038.850] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00004604)
+[ 27041.851] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000046c8)
+[ 27048.851] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000046c8)
+[ 27051.852] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000474c)
+[ 27058.852] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000474c)
+[ 27061.853] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000047d0)
+[ 27068.853] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000047d0)
+[ 27071.854] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000538c)
+[ 27078.854] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000538c)
+[ 27081.855] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00005450)
+[ 27088.855] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00005450)
+[ 27091.856] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000054d4)
+[ 27098.856] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000054d4)
+[ 27101.857] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00005558)
+[ 27108.857] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00005558)
+[ 27111.858] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00006114)
+[ 27118.858] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00006114)
+[ 27121.859] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000061d8)
+[ 27128.859] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000061d8)
+[ 27131.860] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x0000625c)
+[ 27138.860] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x0000625c)
+[ 27141.861] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000062e0)
+[ 27148.861] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000062e0)
+[ 27151.862] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00006e9c)
+[ 27158.862] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00006e9c)
+[ 27161.863] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00006f60)
+[ 27168.863] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00006f60)
+[ 27171.864] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00006fe4)
+[ 27178.864] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00006fe4)
+[ 27181.865] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00007068)
+[ 27188.865] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00007068)
+[ 27191.866] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00007c24)
+[ 27198.866] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00007c24)
+[ 27201.867] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00007ce8)
+[ 27208.867] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00007ce8)
+[ 27211.868] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00007d6c)
+[ 27218.868] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00007d6c)
+[ 27221.869] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00007df0)
+[ 27228.869] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00007df0)
+[ 27231.870] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x000089ac)
+[ 27238.870] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x000089ac)
+[ 27241.871] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00008a70)
+[ 27248.871] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00008a70)
+[ 27251.872] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00008af4)
+[ 27258.872] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00008af4)
+[ 27261.873] (WW) NVIDIA(0): WAIT (2, 6, 0x8000, 0x00009604, 0x00008b78)
+[ 27268.873] (WW) NVIDIA(0): WAIT (1, 6, 0x8000, 0x00009604, 0x00008b78)
